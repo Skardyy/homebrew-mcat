@@ -1,25 +1,25 @@
 class Mcat < Formula
   desc "a powerfull extended cat command, to cat all the things you couldn't before"
   homepage "https://github.com/Skardyy/mcat"
-  version "0.4.5"
+  version "0.4.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Skardyy/mcat/releases/download/v0.4.5/mcat-aarch64-apple-darwin.tar.xz"
-      sha256 "1efafd5417eef6d4157d2373b42f2a92c9578bcc83cf2c9c277dbabe52970557"
+      url "https://github.com/Skardyy/mcat/releases/download/v0.4.6/mcat-aarch64-apple-darwin.tar.xz"
+      sha256 "c54683119f0d9089f00aad98a07b36b0078bc46e645bc597b2d0f9e4cc43c5a6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Skardyy/mcat/releases/download/v0.4.5/mcat-x86_64-apple-darwin.tar.xz"
-      sha256 "891927bcee69ff89c03e4e72255747513cbcc55144689f746a92c6fccd15f398"
+      url "https://github.com/Skardyy/mcat/releases/download/v0.4.6/mcat-x86_64-apple-darwin.tar.xz"
+      sha256 "7c32c6eb9194f07aa101e909dcbcc6a1c849ffa10adf8436e7bc31e50f01438f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Skardyy/mcat/releases/download/v0.4.5/mcat-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "79c09dcd0ad34d48fc36742546d0d3dcb1770c25644268d642f94f9fede588ed"
+      url "https://github.com/Skardyy/mcat/releases/download/v0.4.6/mcat-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7e0ad88279e7c7baf1ce2997ff270daac25081fdd89e14fb78d0d77f11b56190"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Skardyy/mcat/releases/download/v0.4.5/mcat-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "70ca0166830ae0a41fb08de67e05722e037199cd691f9d3c0fa44f80eb51e088"
+      url "https://github.com/Skardyy/mcat/releases/download/v0.4.6/mcat-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a572b5f2d790634840755ed3d876aa71711bb94ee2a268298e09c701495edd14"
     end
   end
   license "MIT"
